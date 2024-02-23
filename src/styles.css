@@ -1,0 +1,44 @@
+body{
+background: hsla(285, 3%, 27%, 1);
+
+background: radial-gradient(circle, hsla(285, 3%, 27%, 1) 0%, hsla(308, 5%, 31%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(285, 3%, 27%, 1) 0%, hsla(308, 5%, 31%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(285, 3%, 27%, 1) 0%, hsla(308, 5%, 31%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#474448", endColorstr="#534B52", GradientType=1 );}
+
+h1{
+    background-color: #E0DDCF;
+    
+    padding: 5px;
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display:block;
+}
+.instruction{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2D232E;
+    color: #E0DDCF;
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.highlighted{
+    background-color:#E0DDCF !important;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.inner-center {
+    width: 300px;
+}
